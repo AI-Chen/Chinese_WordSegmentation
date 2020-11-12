@@ -3,7 +3,7 @@
 
 # Author: chenxiaoshu
 # Date:   2020-11-5
-# Email:  minix007@foxmail.com
+# Email:  1755081919@qq.com
 
 import codecs
 import sys
