@@ -25,10 +25,16 @@ def divideWords(model, sentence):
     senlen = len(sentence)
     while start < senlen:
         curSentence = sentence[start]
+        if len(curSentence) == 0:
+            result.append("\r")
+            result.append("\n")
+            start = start + 1
+            continue
         curSplit = model.cut(curSentence)
         result.extend(curSplit)
         result.append("\r")
         result.append("\n")
+        start = start + 1
     return result
 
 fr = codecs.open(test_path,'r','utf-8')
