@@ -1,0 +1,2 @@
+# Chinese_WordSegmentation
+对经典的基于词典的和基于字的中文方法的实现以及比较
